@@ -1,0 +1,80 @@
+body {
+    height: 5000px;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 500px;
+    margin: 20px auto;
+}
+.form {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.form .input {
+    width: 70%;
+    height: 45px;
+    border: none; 
+    font-size: 18px; 
+    padding: 10px;  
+}
+.form .input:focus {
+    outline: none;
+}
+.form .send {
+    width: 25%;
+    height: 45px; 
+    border: none;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px; 
+    padding: 10px;
+    background-color: red; 
+    cursor: pointer;
+}
+.tasks {
+    background-color: #eee;
+    padding: 25px;
+}
+.tasks .task {
+    width: 100%;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+.tasks .task:hover {
+    background-color: #f7f7f7;
+}
+.tasks .task:not(:last-child) {
+    margin-bottom: 20px;
+}
+.tasks .task.done {
+    opacity: 0.4;       
+}
+.tasks .task span {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;    
+}
+.allinfo .info .task-info {
+    
+}
+.allinfo .info .logo{
+    
+}
+
